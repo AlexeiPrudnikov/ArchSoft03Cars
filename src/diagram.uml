@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="14.0" y="402.0">DieselCar</node>
+    <node x="-558.0" y="108.0">IWipe</node>
+    <node x="264.0" y="344.0">FutureCar</node>
+    <node x="-48.0" y="108.0">IRefueling</node>
+    <node x="-558.0" y="-143.0">TypeFuel</node>
+    <node x="-238.0" y="108.0">GasolineCar</node>
+    <node x="165.0" y="402.0">SweepCar</node>
+    <node x="-416.0" y="84.0">PickUp</node>
+    <node x="-558.0" y="-191.0">TypeGearBox</node>
+    <node x="-412.0" y="-143.0">TypeCar</node>
+    <node x="155.0" y="-70.0">Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GasolineCar" target="IRefueling" relationship="REALIZATION">
+      <point x="70.0" y="-0.0" />
+      <point x="-61.5" y="-0.0" />
+    </edge>
+    <edge source="GasolineCar" target="Car" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-168.0" y="-85.0" />
+      <point x="202.0" y="-85.0" />
+      <point x="-47.0" y="-192.0" />
+    </edge>
+    <edge source="DieselCar" target="IRefueling" relationship="REALIZATION">
+      <point x="-30.25" y="-14.0" />
+      <point x="30.75" y="14.0" />
+    </edge>
+    <edge source="PickUp" target="Car" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="-342.0" y="-95.0" />
+      <point x="296.0" y="-95.0" />
+      <point x="47.0" y="-192.0" />
+    </edge>
+    <edge source="DieselCar" target="Car" relationship="GENERALIZATION">
+      <point x="30.25" y="-14.0" />
+      <point x="104.75" y="392.0" />
+      <point x="249.0" y="392.0" />
+      <point x="0.0" y="192.0" />
+    </edge>
+    <edge source="PickUp" target="IWipe" relationship="REALIZATION">
+      <point x="-74.0" y="-0.0" />
+      <point x="46.0" y="-0.0" />
+    </edge>
+    <edge source="SweepCar" target="Car" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="228.0" y="334.0" />
+      <point x="249.0" y="334.0" />
+      <point x="0.0" y="192.0" />
+    </edge>
+    <edge source="PickUp" target="IRefueling" relationship="REALIZATION">
+      <point x="0.0" y="38.0" />
+      <point x="-342.0" y="170.0" />
+      <point x="-17.25" y="170.0" />
+      <point x="-30.75" y="14.0" />
+    </edge>
+    <edge source="FutureCar" target="Car" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="325.5" y="334.0" />
+      <point x="249.0" y="334.0" />
+      <point x="0.0" y="192.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.2621761658031088" showDependencies="false" x="-75.5" y="136.55541871921184" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
